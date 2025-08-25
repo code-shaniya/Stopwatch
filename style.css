@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background: #9795FB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 2.5rem 1.5rem;
+  gap: 1.5rem;
+  border-radius: 8.5px;
+}
+
+.timer {
+  display: flex;
+  font-size: 3.5rem;
+  gap: 1.5rem;
+  
+}
+
+.timer div {
+  width: 5rem;
+  text-align: center;
+}
+
+.buttonS {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.buttonS button {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+
+.buttonS button:active {
+  transform: scale(0.95);
+}
+
+.active-button {
+  background: #D198FF;
+  color: white;
+}
